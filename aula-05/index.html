@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Semântico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="corpo">
+    <Header class="cabecalho">
+        <H1>Header(cabeçalho)</H1>
+    </Header>
+    <section class="sessao">
+        <nav class="titulo-nav">
+            <div class="nav-links">
+                <a href="" class="links">inicio</a>
+                <a href="" class="links">meio</a>
+                <a href="#final0" class="links">fim</a>
+            </div>
+            <h1 class="texto"> Nav (Menu de navegação)</h1>
+        </nav>
+        <section class="sessao-semantica">
+            <div class="articles-div">
+                <article class="article-div">
+                    <h1 class="title-article">Article 1</h1>
+                    <p class="article-text">
+                        <em>esse texto esta em italico com ênfase semantica</em>. 
+                        <sub>Aqui temos separado o texto com sublimação</sub>. 
+                        <b> essa tag deixa o texto em negrito de forma apenas visual.</b>
+                    </p>
+                </article>
+                <article class="article-div">
+                    <h1 class="title-article"> Article 2</h1>
+                    <p class="article-text"> <strong>para deixar o texto mais destacado usamos a tag "strong"</strong>.
+                        <small> Para deixar o texto pequeno usamos a tag "small"</small>. <i>E em italico usamos a tag "i",
+                                mas para termos tecnicos, pensamentos e expressões em outro idioma</i></p>
+                </article>
+            </div>
+            <div class="articles-div">
+                <time datetime="2026-06-08t14:30:00">08 de junho ás 14:30</time>
+                <figure class="figure">
+                    <img src="./image.png" alt="imagem de lavandario" class="imagem">
+                <figcaption>imagem Térrea do Lavandário da Colônia  Witmarsum</figcaption>
+                </figure>
+                <h1>Lorem <mark>ipsum dolor,</mark> sit amet consectetur adipisicing elit.</h1>
+            </div>
+        </section>
+        <Aside class="anuncios">
+            <h1 class="texto-vert">Aside (anuncios, links, comentários e etc...)</h1>
+        </Aside>
+    </section>
+    <footer id="final" class="rodape">
+        <h1>Footer (rodapé)</h1>
+        <h5><address">cutran cado</address></h5>
+    </footer>
+</body>
+</html>
